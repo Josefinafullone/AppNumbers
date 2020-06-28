@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    tools:context="activities.ActivityJuegoGanado">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_marginBottom="471dp"
+        android:background="@drawable/fondoet"
+        android:gravity="center"
+        android:text="@string/juego_ganado"
+        android:textColor="#E91E63"
+        android:textColorHighlight="#FFEB3B"
+        android:textColorHint="#E91E63"
+        android:textColorLink="#E91E63"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonVolverAJugar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:onClick="VolverAJugar"
+            android:text="@string/volver_a_jugar"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonCerrarApp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:onClick="Salir"
+            android:text="@string/salir"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

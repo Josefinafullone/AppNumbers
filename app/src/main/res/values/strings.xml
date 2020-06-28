@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">APPixar</string>
+    <string name="todo">TODO</string>
+    <string name="txt_name">¿Quien va a jugar?</string>
+    <string name="boton_comenzar">Jugar</string>
+
+    <string name="jugador_nombre">Jugador:</string>
+    <string name="respuesta_edit"></string>
+    <string name="vidas">Vidas:</string>
+    <string name="puntaje">Puntaje:</string>
+    <string name="comprobar">Comprobar</string>
+    <string name="respuesta">Respuesta</string>
+    <string name="ayuda">Ver Solucion</string>
+
+
+    <string name="juego_ganado">¡Ganaste!</string>
+    <string name="volver_a_jugar">Volver a Jugar</string>
+    <string name="salir">Salir</string>
+</resources>

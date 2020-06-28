@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button3" type="id" />
+    <item name="tv_nombre" type="id" />
+    <item name="textView_score" type="id" />
+    <item name="textView_vidas" type="id" />
+    <item name="imageView_signo" type="id" />
+    <item name="imageView_vidas" type="id" />
+    <item name="imageView_primervalor" type="id" />
+    <item name="editText_respuesta" type="id" />
+    <item name="button" type="id" />
+    <item name="imageView_segundovalor" type="id" />
+    <item name="tv_respuesta" type="id" />
+</resources>
