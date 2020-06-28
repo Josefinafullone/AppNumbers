@@ -32,7 +32,7 @@ public class ActivityNivel2 extends AppCompatActivity implements ActivityNivel {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nivel2);
-        Toast.makeText(this, "Nivel 2 - Sumas moderadas",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "Nivel 2 - Sumas moderadas",Toast.LENGTH_SHORT).show();
 
         tv_nombre = (TextView)findViewById(R.id.tv_nombre);
         tv_puntaje = (TextView)findViewById(R.id.textView_score);

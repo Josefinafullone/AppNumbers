@@ -13,8 +13,8 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="@dimen/_10sdp"
-        android:layout_marginRight="@dimen/_10sdp"
         android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
         android:layout_marginBottom="@dimen/_10sdp"
         android:background="@android:color/white"
         android:orientation="vertical">
@@ -56,8 +56,8 @@
                 android:id="@+id/imageView_vidas"
                 android:layout_width="@dimen/_60sdp"
                 android:layout_height="@dimen/_25sdp"
-                app:srcCompat="@drawable/tresvidas"
-                android:contentDescription="TODO" />
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/tresvidas" />
         </LinearLayout>
 
         <LinearLayout
@@ -70,8 +70,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/cero"
-                android:contentDescription="TODO" />
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/cero" />
 
             <ImageView
                 android:id="@+id/imageView_signo"
@@ -85,8 +85,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/cero"
-                android:contentDescription="TODO" />
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/cero" />
         </LinearLayout>
 
         <LinearLayout
@@ -99,8 +99,8 @@
                 android:id="@+id/editText_respuesta"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:hint="@string/respuesta"
                 android:inputType="number" />
 
